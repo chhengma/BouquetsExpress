@@ -10,3 +10,12 @@ $light:#F2EEE6;
 $display-font-weight:600;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Search input
+input[type="search"] {
+	padding-left: 50px; 
+}
+
+#searchInput {
+	width: 400px; /* Change the width as needed */
+}
