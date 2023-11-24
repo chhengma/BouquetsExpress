@@ -19,3 +19,63 @@ input[type="search"] {
 #searchInput {
 	width: 400px; /* Change the width as needed */
 }
+
+//Navigation
+.nav-link {
+	color: $primary;
+
+	&:hover {
+		color: $tertiary !important;
+	}
+
+	&.active {
+		font-weight: $display-font-weight;
+	}
+}
+
+.navbar-nav .nav-item  {
+	padding-right: 1rem;
+}
+
+//Carousel
+.carousel-overlay {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+ 
+.texture-bkg{
+	background-image: url(/img/texture-background.jpg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	position: absolute;
+	filter: invert(80%);
+}
+
+.carousel-control-prev {
+	left: -65px;
+}
+
+.carousel-control-next {
+	right: -65px;
+}
+
+
+//Hover effects
+.image-hover-effect {
+	transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image-hover-effect:hover {
+	filter: saturate(120%) hue-rotate(90deg) brightness(110%);
+	opacity: 0.7; 
+}
+
+.btn-secondary:hover {
+	background-color: $primary;
+	border-color: $primary;
+}
