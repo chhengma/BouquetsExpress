@@ -105,3 +105,10 @@ h1{
     border-bottom-right-radius: 300px;
     overflow: hidden;
 }
+
+.rounded-pill-top {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    overflow: hidden;
+	border: 0;
+}
