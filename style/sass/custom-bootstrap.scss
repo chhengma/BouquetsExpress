@@ -84,3 +84,24 @@ input[type="search"] {
 .fs-6{
 	font-size: 0.85rem !important;
 }
+
+h1{
+	font-family: $font-family;
+	font-size: 5rem;
+}
+
+//Section
+
+#apropos{
+	background-color: $tertiary;
+}
+
+.apropos{
+	width: 70%;
+}
+
+.rounded-pill-right {
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    overflow: hidden;
+}
