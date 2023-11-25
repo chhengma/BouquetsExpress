@@ -1,0 +1,10 @@
+//texture background
+.texture-bkg{
+	background-image: url(/img/texture-background.jpg);
+}
+
+//custom solid line
+hr.solid{
+    color:$secondary;
+    width: 50%;
+}
