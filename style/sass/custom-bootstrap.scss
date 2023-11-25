@@ -107,8 +107,16 @@ h1{
 }
 
 .rounded-pill-top {
-    border-top-left-radius: 300px;
-    border-top-right-radius: 300px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
     overflow: hidden;
 	border: 0;
+}
+
+@media (max-width: 960px) {
+	.rounded-pill-right {
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		object-fit: cover;
+	}
 }
