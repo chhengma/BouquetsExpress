@@ -111,6 +111,13 @@ h1{
 	border: 0;
 }
 
+//custom solid line
+hr.solid{
+	border: 0.5px solid $secondary;
+	width: 50%;
+	opacity: 1;
+}
+
 @media (max-width: 960px) {
 	.rounded-pill-right {
 		border-top-right-radius: 0px;
