@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bouquets Express</title>
 	<link rel="stylesheet" href="style/css/custom-bootstrap.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="style/css/styles.css">
 	<link rel="icon" href="favicon.ico">
 </head>
@@ -60,6 +61,44 @@
 		</nav>
 	</header>
 	<main>
+		<section class="connexion">
+			<div class="container container-fluid">
+				<h1 class="text-center text-primary pt-5 pb-5">
+					Se connecter
+				</h1>
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="row w-75">
+						<div class="col-lg-6">
+							<form class="text-primary">
+								<div class="form-group pt-3">
+									<label for="email">Adresse courriel</label>
+									<input type="email" class="form-control" id="email">
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-6">
+							<form class="text-primary">
+								<div class="form-group pt-3">
+									<label for="password">Mot de passe</label>
+									<div class="input-group">
+										<input type="password" class="form-control" id="password" placeholder="Password">
+										<i class="bi bi-eye-slash toggle-password" style="position: absolute; right: 10px; top: 10px; cursor: pointer;"></i>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="d-flex justify-content-center">
+							<a href="confirmation.html"
+								class="btn btn-secondary text-light rounded-pill py-2 px-4 mt-3 mb-5 animated zoomIn mr-4">Envoyer</a>
+								<span class="px-2"></span>
+								<a href="confirmation.html"
+								class="btn btn-outline-primary rounded-pill py-2 px-4 mt-3 mb-5 animated zoomIn">Envoyer</a>
+						</div>						
+					</div>
+				</div>
+			</div>
+
+		</section>
 
 	</main>
 	<footer class="bg-light text-primary pt-5">

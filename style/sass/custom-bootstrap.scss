@@ -78,6 +78,11 @@ input[type="search"] {
 	border-color: $primary;
 }
 
+.btn-outline-primary:hover{
+	background-color: $tertiary;
+	border-color: $tertiary;
+}
+
 //Custom font
 .fs-6{
 	font-size: 0.85rem !important;
