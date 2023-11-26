@@ -88,7 +88,7 @@ h1{
 	font-size: 5rem;
 }
 
-h3{
+h6{
 	font-family: $font-family;
 	font-size: 4rem;
 	width: 70%;
@@ -113,6 +113,8 @@ h3{
 .rounded-pill-top {
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
     overflow: hidden;
 	border: 0;
 }
