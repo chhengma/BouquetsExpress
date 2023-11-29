@@ -14,6 +14,10 @@ $display-font-weight:600;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+#details{
+	background-color: $tertiary;
+}
+
 //Search input
 input[type="search"] {
 	padding-left: 50px; 
