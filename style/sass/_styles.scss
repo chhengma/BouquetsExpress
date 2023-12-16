@@ -28,3 +28,30 @@ textarea{
 	background-position: center;
 	height: 500px;
 }
+
+//carte interactive
+
+.overlay-text {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    width: 470px; /* Adjust width as needed */
+    text-align: center;
+}
+
+
+//fonts
+
+.Arial{
+	font-family: Arial;
+ }
+ .Algerian{
+	font-family: Algerian;
+ }
+ .Berlin-sans-fb{
+	font-family: 'Berlin sans fb';
+ }
+ .lora{
+	font-family: 'Lora', serif;
+ }

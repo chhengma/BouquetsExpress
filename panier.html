@@ -65,7 +65,7 @@
 				<h1 class="text-center text-primary pt-5 pb-5">
 					Panier
 				</h1>
-				<div class="row pb-5">
+				<div class="row pb-5 gx-5">
 					<div class="col-lg-9">
 						<div class="text-primary d-flex pr-4 mb-4">
 							<img src="/img/icon.png" alt="icon" class="mx-2">
@@ -124,7 +124,7 @@
 						<h3 class="text-center mt-4 pb-4">Détails</h3>
 						<div class="d-flex flex-column text-primary">
 							<div class="d-flex text-light">
-								<p class="fw-bold mx-2">Sous-total</p>
+								<p class="fw-bold mx-2">Sous-total:</p>
 								<div class="d-flex flex-grow-1 justify-content-end">
 									<p class="mb-0">214,96$</p>
 								</div>
@@ -152,6 +152,62 @@
 				</div>
 			</div>
 		</div>
+		<div class="bg-primary text-center text-light pb-5">
+			<div class="container">
+				<h2 class="pt-5 pb-5">Ajoutez gratuitement une carte personnalisée</h2>
+				<div class="row gx-5">
+					<div class="col-lg-6 position-relative">
+						<img class="img-fluid pt-4" src="img/card.png" alt="carte">
+						<div class="overlay-text text-center">
+							<h1 class="pb-2" id="display-text-primaire">
+								Message principal
+							</h1>
+							<div id="output-text">
+								<p class="fs-4" id="display-text-secondaire">
+									Ceci est un exemple!
+								</p>
+							</div>
+							<p class="text-start fs-5" id="display-text-to">À :</p>
+							<p class="text-start fs-5" id="display-text-from">De :</p>
+						</div>
+					</div>
+					<div class="col-lg-6 d-flex align-items-center justify-content-center">
+						<form class="text-primary text-light text-start mt-5 w-100">
+							<div class="form-group mt-5 pt-3">
+								<label for="nomPrenom">À :</label>
+								<input type="text" class="form-control" id="nomPrenom">
+							</div>
+							<div class="form-group pt-3">
+								<label for="nomFrom">De :</label>
+								<input type="text" class="form-control" id="nomFrom">
+							</div>
+							<div class="form-group pt-3">
+								<label for="messagePrincipal">Message principal :</label>
+								<input type="text" class="form-control" id="messagePrincipal">
+							</div>
+							<div class="form-group pt-3">
+								<label for="messageSecondaire">Message secondaire :</label>
+								<textarea class="form-control" id="messageSecondaire" name="detail" rows="4" placeholder="Votre message"></textarea>
+							</div>
+							<div class="form-group pt-3 pb-3">
+								<label for="TypeEvenement">Choix de la calligraphie :</label>
+								<select id="input-font" class="input" onchange="changingFont (this);">
+									<option selected>Choisir</option>
+									<option class="text-primary" value="lora" selected="selected">Lora</option>
+									<option value="Arial">Arial</option>
+								</select>
+							</div>
+							<button type="button"
+								class="btn btn-secondary text-light rounded-pill py-2 px-4 mt-3 mb-5 animated zoomIn"
+								data-toggle="modal" data-target="#myModal">
+								Ajouter au panier
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</main>
 	<footer class="bg-light text-primary pt-5">
 		<div class="container">
